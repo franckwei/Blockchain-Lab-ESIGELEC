@@ -38,7 +38,6 @@ contract MyToken is owned {
         symbol = tokenSymbol;
         decimals = decimalUnits;
         if (centralMinter != 0) owner = centralMinter;
-
     }
 
     function transfer(address _to, uint256 _value) public {
